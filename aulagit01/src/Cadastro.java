@@ -3,5 +3,6 @@ public class Cadastro {
         System.out.println("Nome: ");
         System.out.println("Login: ");
         System.out.println("Senha: ");
+        System.out.println("Clique em OK para confirmar: ");
     }
 }
