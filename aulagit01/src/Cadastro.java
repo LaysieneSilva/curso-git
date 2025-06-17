@@ -1,8 +1,22 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class Cadastro {
     public static void main(String[] args) {
-        System.out.println("Nome: ");
-        System.out.println("Login: ");
-        System.out.println("Senha: ");
-        System.out.println("Clique em OK para confirmar: ");
+    Scanner teclado = new Scanner(System.in);
+
+    // CADASTRO
+
+        System.out.println("CADASTRO");
+
+        System.out.println("Digite seu nome completo: ");
+        String nome = teclado.nextLine();
+
+        System.out.println("Digite seu e-mail: ");
+        String email = teclado.nextLine();
+
+        System.out.println("Digite sua senha: ");
+        String senha = teclado.nextLine();
+        System.out.println("Cadastro concluído! ");
     }
 }
